@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #1e293b;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  margin-left: 230px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+
+.tagline {
+  margin: 10px 0 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #7c3aed;
+}
+.sidebartag{
+  color: #07f60b;
+  font-size: 2.1rem;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #0c5ee2;
+    color: #ffffff;
+    overflow-y: auto;
+}
+
+/* Sidebar Heading */
+.sidebartag {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin: 10px 0 30px;
+}
+
+/* Navigation List */
+aside nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside nav ul li {
+    margin-bottom: 15px;
+}
+
+/* Navigation Links */
+aside nav ul li a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+aside nav ul li a:hover {
+    background-color: #583aed;
+    color: #ffffff;
+}
+
+
+main {
+  margin-left: 230px;
+  padding: 30px;
+}
+
+.dashboard {
+  text-align: center;
+}
+
+.dashboard h1 {
+  font-size: 2.3rem;
+  margin: 0 0 10px;
+  color: #4f46e5;
+}
+
+.dashboard > p {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #f303e7;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(215, 235, 2, 0.12);
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #64748b;
+}
+.card p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4f46e5;
+}
+.recent-expenses {
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 25px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.recent-expenses h2 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+.spending-overview {
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+.spending-overview h2 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+section p {
+  color: #475569;
+  font-size: 1rem;
+}
+.sidebar {
+  background-color: #0c5ee2;
+  color: #ffffff;
+  margin: 0;
+}
