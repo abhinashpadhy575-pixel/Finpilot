@@ -69,7 +69,7 @@ FinPilot is mainly created to practice web development concepts and understand h
 
 ## 👨‍💻 Author
 
-**Abhinash**
+**Abhinash** **Padhy**
 
 BTech CSE Student
 
