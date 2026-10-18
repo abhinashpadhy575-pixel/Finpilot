@@ -1,102 +1,214 @@
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+body{
+    font-family: 'poppins';
 }
-
-body {
-    background-color: #f8fafc;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    color: #1e293b;
-}
-
-/* Sidebar */
 .sidebar {
-    width: 250px;
-    height: 100vh;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: #0c5ee2;
-    color: #ffffff;
-    overflow-y: auto;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0c5ee2;
+  color: #ffffff;
+  overflow-y: auto;
 }
-
-/* Sidebar Heading */
 .sidebartag {
-    color: #ffffff;
-    font-size: 1.8rem;
-    margin: 10px 0 30px;
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin: 10px 0 30px;
 }
 
-/* Navigation List */
 aside nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 aside nav ul li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-/* Navigation Links */
 aside nav ul li a {
-    display: block;
-    padding: 12px 15px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 500;
-    border-radius: 8px;
-    transition: 0.3s ease;
+  display: block;
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
-/* Hover Effect */
 aside nav ul li a:hover {
-    background-color: #583aed;
-    color: #ffffff;
+  background-color: #583aed;
+  color: #ffffff;
 }
 
-/* Main Profile Content */
 .profile-content {
-    margin-left: 250px;
-    padding: 0px;
+  margin-left: 250px;
+  padding: 20px;
+  min-height: 100vh;
 }
 
-/* Header */
 header {
-    padding: 20px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
-    border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
 }
 
-/* Profile Heading */
 .heading {
-    margin: 0 0 8px;
-    color: #583aed;
-    font-size: 2rem;
-    white-space: nowrap;
+  margin: 0 0 8px;
+  color: #583aed;
+  font-size: 2rem;
+  white-space: nowrap;
 }
 
-/* Information Text */
 .information {
-    font-size: 1.2rem;
-    color: #1e293b;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #64748b;
+  line-height: 1.6;
 }
 
-/* Profile Image Container */
 .profile-image-container {
-    margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+
+  width: 100%;
+  margin-top: 25px;
+  padding: 25px;
+
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+
+  color: #1e293b;
 }
 
-/* Profile Picture */
 .profile-picture {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: inline-block;
+  display: block;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  background-color: #dbeafe;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.profile-name {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.profile-email {
+  margin: 0;
+  color: #64748b;
+  font-size: 1rem;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 180px;
+    padding: 15px;
+  }
+
+  .sidebartag {
+    font-size: 1.4rem;
+  }
+
+  aside nav ul li a {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .profile-content {
+    margin-left: 180px;
+    padding: 12px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+    white-space: normal;
+  }
+
+  .information {
+    font-size: 0.9rem;
+  }
+
+  .profile-image-container {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .profile-picture {
+    width: 75px;
+    height: 75px;
+  }
+
+  .profile-name {
+    font-size: 1.2rem;
+  }
+
+  .profile-email {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 130px;
+    padding: 10px;
+  }
+
+  .sidebartag {
+    font-size: 1.1rem;
+  }
+
+  aside nav ul li a {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .profile-content {
+    margin-left: 130px;
+    padding: 8px;
+  }
+
+  .profile-image-container {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .profile-picture {
+    width: 55px;
+    height: 55px;
+  }
+
+  .profile-name {
+    font-size: 1rem;
+  }
+
+  .profile-email {
+    font-size: 0.75rem;
+  }
 }
