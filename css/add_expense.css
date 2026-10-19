@@ -1,5 +1,4 @@
 
-/* ===== GLOBAL STYLING ===== */
 body.add-expense-page {
   --primary: #4f46e5;
   --primary-hover: #4338ca;
@@ -28,7 +27,6 @@ body.add-expense-page * {
   scroll-behavior: smooth;
 }
 
-/* ===== SIDEBAR ===== */
 body.add-expense-page .sidebar {
   width: 250px;
   min-width: 250px;
@@ -52,7 +50,6 @@ body.add-expense-page .sidebartag {
   margin: 10px 0 30px;
 }
 
-/* ===== NAVIGATION ===== */
 body.add-expense-page aside nav ul {
   list-style: none;
   padding: 0;
@@ -79,7 +76,6 @@ body.add-expense-page aside nav ul li a:hover {
   color: #ffffff;
 }
 
-/* ===== PAGE HEADING ===== */
 body.add-expense-page .expense {
   color: var(--primary);
   margin: 0 0 10px 250px;
@@ -101,7 +97,6 @@ body.add-expense-page .expense h2 {
   color: var(--muted);
 }
 
-/* ===== AMOUNT SECTION ===== */
 body.add-expense-page .insert {
   margin: 10px 24px 20px 274px;
   padding: 22px 24px;
@@ -118,7 +113,7 @@ body.add-expense-page .insert h2 {
   font-size: 1.2rem;
 }
 
-/* ===== ENTER AMOUNT BUTTON ===== */
+
 body.add-expense-page .start-button {
   background: var(--primary);
   color: #ffffff;
@@ -139,7 +134,7 @@ body.add-expense-page .start-button:hover {
   background: var(--primary-hover);
 }
 
-/* ===== CATEGORY HEADING ===== */
+
 body.add-expense-page .category {
   margin: 10px 24px 16px 274px;
   padding: 10px 24px;
@@ -152,7 +147,7 @@ body.add-expense-page .category h2 {
   color: var(--text);
 }
 
-/* ===== CATEGORY CARDS ===== */
+
 body.add-expense-page .summary-cards {
   margin: 18px 24px 28px 250px;
   padding: 10px 24px;
@@ -194,7 +189,7 @@ body.add-expense-page .card h2 {
   overflow-wrap: anywhere;
 }
 
-/* ===== FORM SECTIONS ===== */
+
 body.add-expense-page .info,
 body.add-expense-page .payment,
 body.add-expense-page .Notes {
@@ -212,7 +207,7 @@ body.add-expense-page .Notes h2 {
   font-weight: 600;
 }
 
-/* ===== DATE AND PAYMENT METHOD ===== */
+
 body.add-expense-page #date,
 body.add-expense-page #card_type {
   display: block;
@@ -231,7 +226,7 @@ body.add-expense-page #card_type {
               box-shadow 0.2s ease;
 }
 
-/* ===== NOTES ===== */
+
 body.add-expense-page #notes {
   display: block;
   width: 100%;
@@ -257,7 +252,7 @@ body.add-expense-page #notes:focus {
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
 }
 
-/* ===== ADD EXPENSE BUTTON ===== */
+
 body.add-expense-page .button1 {
   background: var(--green);
   color: #ffffff;
@@ -285,7 +280,7 @@ body.add-expense-page .start-button:focus-visible {
   outline-offset: 3px;
 }
 
-/* ===== TABLET ===== */
+
 @media (max-width: 900px) {
   body.add-expense-page .summary-cards {
     gap: 14px;
@@ -302,7 +297,7 @@ body.add-expense-page .start-button:focus-visible {
   }
 }
 
-/* ===== MOBILE ===== */
+
 @media (max-width: 600px) {
   body.add-expense-page .sidebar {
     width: 100%;
