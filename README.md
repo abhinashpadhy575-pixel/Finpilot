@@ -11,6 +11,7 @@ The main objective of FinPilot is to create a simple and easy-to-use platform wh
 * Track their daily expenses
 * View their expense history
 * Manage their budget
+* Manage their profile
 * Understand their spending habits
 * Work towards better financial management
 
@@ -20,6 +21,7 @@ Currently, this project is being developed using:
 
 * HTML
 * CSS
+* JavaScript
 
 More technologies will be added as the project progresses.
 
@@ -28,18 +30,21 @@ More technologies will be added as the project progresses.
 ```text
 FinPilot/
 │
-├── index.html
 ├── css/
-│   └── style.css
+│   ├── add_expense.css
+│   ├── budget.css
+│   ├── expenses.css
+│   └── profile.css
+│
+├── images/
+│
+├── js/
 │
 ├── pages/
-│   ├── add-expense.html
-│   ├── expenses.html
-│   ├── budget.html
-│   └── profile.html
 │
+├── index.html
+├── style.css
 └── README.md
-```
 
 ## 🚀 Current Features
 
