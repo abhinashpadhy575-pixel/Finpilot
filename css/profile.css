@@ -1,3 +1,4 @@
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -6,7 +7,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-  width: 210px;
+  width: 250px;
   height: 100vh;
   padding: 20px;
   position: fixed;
@@ -53,7 +54,7 @@ aside nav ul li a:hover {
 
 /* Main Content */
 .profile-content {
-  margin-left: 220px;
+  margin-left: 250px;
   margin-top: 20px;
   background-color: #f8fafc;
   padding: 10px;
@@ -90,15 +91,12 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 25px;
-
   width: 100%;
   margin-top: 25px;
   padding: 25px;
-
   background-color: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-
   color: #1e293b;
   box-sizing: border-box;
 }
@@ -109,10 +107,8 @@ header {
   width: 100px;
   height: 100px;
   flex-shrink: 0;
-
   border-radius: 50%;
   object-fit: cover;
-
   background-color: #dbeafe;
 }
 
