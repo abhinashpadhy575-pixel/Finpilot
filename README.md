@@ -40,7 +40,7 @@ FinPilot/
 │
 ├── js/
 │
-|pages/
+├── pages/
 │   ├── add_expense.html
 │   ├── budget.html
 │   ├── expenses.html
