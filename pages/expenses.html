@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expenses</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/expenses.css">
 </head>
+
 <body>
-     <aside class="sidebar">
-      
+    <aside class="sidebar">
+
         <nav>
-             <h1 class="sidebartag">Navigation</h1>
+            <h1 class="sidebartag">Navigation</h1>
             <ul>
                 <li>
                     <a href="../index.html">Dashboard</a>
@@ -38,5 +42,73 @@
             </ul>
         </nav>
     </aside>
+    <div class="content">
+        <h1>Expense History</h1>
+        <p>Track and Manage Your Spending. Stay in control of your finances.</p>
+    </div>
+    <section class="filters">
+
+            <select>
+                <option>All Categories</option>
+                <option>Food & Dining</option>
+                <option>Shopping</option>
+                <option>Travel</option>
+                <option>Entertainment</option>
+                <option>Groceries</option>
+                <option>Bills & Utilities</option>
+                <option>Education</option>
+            </select>
+
+
+            <select>
+                <option>All Payment Methods</option>
+                <option>UPI</option>
+                <option>Cash</option>
+                <option>Card</option>
+                <option>Bank Transfer</option>
+            </select>
+
+
+            <input type="date">
+
+
+            <button class="clear-btn">
+                Clear Filters
+            </button>
+
+        </section>
+
+
+    <select class="sort-select">
+                        <option>Sort by: Latest</option>
+                        <option>Sort by: Oldest</option>
+                        <option>Sort by: Highest</option>
+                        <option>Sort by: Lowest</option>
+                    </select>
+    <div class="summary-cards">
+
+        <div class="card">
+            <h2>Total Spent</h2>
+            <h3>12,850</h3>
+        </div>
+        <div class="card">
+            <h2>Total Income</h2>
+            <h3>15,000</h3>
+        </div>
+        <div class="card">
+            <h2>This Month's Spending</h2>
+            <h3>1,200</h3>
+        </div>
+        <div class="card">
+            <h2>Transaction</h2>
+            <h3>5</h3>
+        </div>
+
+
+
+    </div>
+
+    </div>
 </body>
+
 </html>
