@@ -1,17 +1,13 @@
 * {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
-
-    background-color: #f8fafc;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    color: #1e293b;
-
+  background-color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #1e293b;
 }
-
-
 
 .sidebar {
   width: 250px;

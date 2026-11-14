@@ -26,7 +26,6 @@ body.add-expense-page * {
   scroll-behavior: smooth;
 }
 
-/* Sidebar */
 body.add-expense-page .sidebar {
   width: 250px;
   min-width: 250px;
@@ -50,7 +49,6 @@ body.add-expense-page .sidebartag {
   margin: 10px 0 30px;
 }
 
-/* Navigation */
 body.add-expense-page aside nav ul {
   list-style: none;
   padding: 0;
@@ -77,7 +75,6 @@ body.add-expense-page aside nav ul li a:hover {
   color: #ffffff;
 }
 
-/* Main Heading */
 body.add-expense-page .expense {
   color: var(--primary);
   margin: 0 0 10px 250px;
@@ -99,7 +96,6 @@ body.add-expense-page .expense h2 {
   color: var(--muted);
 }
 
-/* Insert Section */
 body.add-expense-page .insert {
   margin: 10px 24px 20px 274px;
   padding: 22px 24px;
@@ -116,7 +112,6 @@ body.add-expense-page .insert h2 {
   font-size: 1.2rem;
 }
 
-/* Start Button */
 body.add-expense-page .start-button {
   background: var(--primary);
   color: #ffffff;
@@ -137,7 +132,6 @@ body.add-expense-page .start-button:hover {
   background: var(--primary-hover);
 }
 
-/* Category */
 body.add-expense-page .category {
   margin: 10px 24px 16px 274px;
   padding: 10px 24px;
@@ -150,7 +144,6 @@ body.add-expense-page .category h2 {
   color: var(--text);
 }
 
-/* Summary Cards */
 body.add-expense-page .summary-cards {
   margin: 18px 24px 28px 250px;
   padding: 10px 24px;
@@ -193,7 +186,6 @@ body.add-expense-page .card h2 {
   overflow-wrap: anywhere;
 }
 
-/* Information, Payment and Notes */
 body.add-expense-page .info,
 body.add-expense-page .payment,
 body.add-expense-page .Notes {
@@ -211,7 +203,6 @@ body.add-expense-page .Notes h2 {
   font-weight: 600;
 }
 
-/* Input Fields */
 body.add-expense-page #date,
 body.add-expense-page #card_type {
   display: block;
@@ -249,7 +240,6 @@ body.add-expense-page #notes {
     box-shadow 0.2s ease;
 }
 
-/* Input Focus */
 body.add-expense-page #date:focus,
 body.add-expense-page #card_type:focus,
 body.add-expense-page #notes:focus {
@@ -257,7 +247,6 @@ body.add-expense-page #notes:focus {
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
 }
 
-/* Submit Button */
 body.add-expense-page .button1 {
   background: var(--green);
   color: #ffffff;
@@ -285,7 +274,6 @@ body.add-expense-page .start-button:focus-visible {
   outline-offset: 3px;
 }
 
-/* Tablet - Same as Profile Page */
 @media (max-width: 768px) {
   body.add-expense-page .sidebar {
     width: 180px;
@@ -334,7 +322,6 @@ body.add-expense-page .start-button:focus-visible {
   }
 }
 
-/* Mobile - Same as Profile Page */
 @media (max-width: 480px) {
   body.add-expense-page .sidebar {
     width: 130px;
