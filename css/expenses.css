@@ -1,7 +1,3 @@
-/* ========================================
-   1. Global Styles
-======================================== */
-
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -14,10 +10,6 @@ body {
   font-weight: 500;
   color: #1e293b;
 }
-
-/* ========================================
-   2. Sidebar Navigation
-======================================== */
 
 .sidebar {
   width: 250px;
@@ -64,9 +56,6 @@ aside nav ul li a:hover {
   color: #ffffff;
 }
 
-/* ========================================
-   3. Expense History Header
-======================================== */
 
 .content {
   width: calc(100% - 250px);
@@ -76,10 +65,6 @@ aside nav ul li a:hover {
   border-radius: 50px;
   border: 2px solid #0c5ee2;
 }
-
-/* ========================================
-   4. Filter Section
-======================================== */
 
 .filters {
   width: calc(100% - 250px);
@@ -104,10 +89,6 @@ aside nav ul li a:hover {
   outline: none;
 }
 
-/* ========================================
-   5. Clear Filters Button
-======================================== */
-
 .clear-btn {
   height: 45px;
   padding: 0 18px;
@@ -123,9 +104,6 @@ aside nav ul li a:hover {
   background-color: #17285b;
 }
 
-/* ========================================
-   6. Sort Dropdown
-======================================== */
 
 .sort-select {
   display: block;
@@ -140,12 +118,7 @@ aside nav ul li a:hover {
   border-radius: 8px;
   outline: none;
 }
-
-/* ========================================
-   7. Summary Cards Container
-======================================== */
-
-.summary-cards {
+mmary-cards {
   width: calc(100% - 250px);
   margin-left: 250px;
   margin-top: 20px;
@@ -162,10 +135,6 @@ aside nav ul li a:hover {
     box-shadow 0.2s ease,
     transform 0.2s ease;
 }
-
-/* ========================================
-   8. Individual Summary Cards
-======================================== */
 
 .card {
   width: 100%;
@@ -184,10 +153,6 @@ aside nav ul li a:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-
-/* ========================================
-   9. Responsive Alignment
-======================================== */
 
 @media (max-width: 1100px) {
   .summary-cards {
